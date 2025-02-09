@@ -1,0 +1,64 @@
+/* Стили для страницы пользователя */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+/* Секция информации о пользователе */
+.user-detail {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-detail h2 {
+    color: #007BFF;
+}
+
+.user-detail-content {
+    margin-top: 20px;
+}
+
+.user-detail-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Кнопки действий */
+.action_buttons {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Отступы между кнопками */
+    justify-content: center; /* Выравнивание по центру */
+}
+
+.to_edit_button, .to_users_button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.to_edit_button:hover, .to_users_button:hover {
+    background-color: #0056b3;
+}
+

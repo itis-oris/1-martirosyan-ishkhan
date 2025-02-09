@@ -1,0 +1,123 @@
+/* Стиль для кнопки "На главную" */
+.to_home_button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #007BFF; /* Синий фон */
+    color: white; /* Белый текст */
+    border-radius: 5px; /* Округлые края */
+    margin-bottom: 10px; /* Отступ снизу, чтобы была дистанция от заголовка */
+}
+
+/* Эффект при наведении на кнопку "На главную" */
+.to_home_button:hover {
+    background-color: #0056b3; /* Более темный фон при наведении */
+    color: white; /* Белый текст при наведении */
+}
+
+/* Заголовок */
+header {
+    display: flex;
+    justify-content: space-between; /* Размещаем элементы по краям */
+    align-items: center; /* Вертикальное выравнивание элементов */
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Основные настройки */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Содержание */
+.content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-info {
+    background-color: #f1faff;
+    border: 1px solid #cce4ff;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* Общие стили для блока действий */
+.profile-actions {
+    background-color: #f1faff;
+    border: 1px solid #cce4ff;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Стили для кнопок в блоке действий */
+.profile-actions a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #007BFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.profile-actions a:hover {
+    background-color: #0056b3;
+}
+
+/* Кнопки */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .profile-info {
+        font-size: 14px;
+    }
+}

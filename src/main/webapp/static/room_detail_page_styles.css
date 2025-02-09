@@ -1,0 +1,75 @@
+/* Стили для страницы комнаты */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+/* Секция информации о комнате */
+.room-detail {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.room-detail h2 {
+    color: #007BFF;
+}
+
+.room-detail-content {
+    margin-top: 20px;
+}
+
+.room-detail-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #007BFF;
+    margin-top: 15px;
+}
+
+.user-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.user-list li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Кнопка назад */
+.action_buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.to_rooms_button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.to_rooms_button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,92 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Контейнер формы */
+.container {
+    max-width: 600px; /* Задаем фиксированную ширину контейнера */
+    width: 90%; /* Делаем контейнер отзывчивым */
+    margin: 50px auto; /* Центрируем контейнер по горизонтали */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок страницы */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Стили формы */
+form {
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+textarea {
+    width: 100%; /* Растягиваем поля ввода на ширину контейнера */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Стили кнопок */
+button {
+
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    margin-right: 400px;
+    margin-left: 400px;
+    background-color: #007BFF;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="button"] {
+    margin-right: 400px;
+    margin-left: 400px;
+    background-color: #ccc;
+    color: #333;
+}
+
+button[type="button"]:hover {
+    background-color: #999;
+}
+
+/* Центрирование кнопок */
+button + button {
+    margin-left: 10px;
+}
