@@ -1,0 +1,180 @@
+/* Общие стили для всех страниц */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.user-info {
+    margin-left: 15px; /* Отодвигает кнопку к правому краю */
+}
+
+
+.user-info .user-name {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #007BFF; /* Синий фон */
+    color: white; /* Белый текст */
+    border-radius: 5px; /* Округлые края */
+}
+
+.user-name:hover {
+    background-color: #0056b3; /* Более темный фон при наведении */
+    color: white; /* Белый текст при наведении */
+}
+
+.actions {
+    margin-right: 15px; /* Отодвигает кнопку к правому краю */
+}
+
+
+.actions .home {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #007BFF; /* Синий фон */
+    color: white; /* Белый текст */
+    border-radius: 5px; /* Округлые края */
+}
+
+.home:hover {
+    background-color: #0056b3; /* Более темный фон при наведении */
+    color: white; /* Белый текст при наведении */
+}
+
+.search-bar {
+    margin: 0 auto;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: white;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Секция контента */
+.content {
+    margin-top: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.pagination-btn {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.pagination-btn:hover {
+    text-decoration: underline;
+}
+
+/* Мероприятия */
+.rooms-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rooms-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.room-item {
+    display: flex;
+    gap: 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+}
+
+.room-number {
+    margin: 0;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.add-room-button-container {
+    text-align: right; /* Центровка содержимого по горизонтали */
+    margin-bottom: 20px; /* Отступ снизу, если нужно */
+}
+
+.create_room {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #007BFF; /* Синий фон */
+    color: white; /* Белый текст */
+    border-radius: 5px; /* Округлые края */
+}
+
+.create_room:hover {
+    background-color: #0056b3; /* Более темный фон при наведении */
+    color: white; /* Белый текст при наведении */
+}
+
+label {
+    font-weight: bold;
+    color: #ffffff;
+}
+/* Заголовок секции новостей */
+.rooms-section h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+

@@ -40,3 +40,5 @@ build/
 /.idea/
 /.mvn/
 /.github/
+/mvnw.cmd
+/mvnw

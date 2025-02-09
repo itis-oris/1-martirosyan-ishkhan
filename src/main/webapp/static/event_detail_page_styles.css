@@ -1,0 +1,76 @@
+/* Стили для страницы мероприятия */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+/* Секция мероприятия */
+.event-detail {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-detail h2 {
+    color: #007BFF;
+}
+
+.event-detail-content {
+    margin-top: 20px;
+}
+
+.event-description p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.register_button {
+    margin-top: 25px;
+}
+
+.to_register_button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.to_register_button:hover {
+    background-color: #0056b3;
+}
+
+/* Кнопка на главную */
+.back_button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.to_events_button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.to_events_button:hover {
+    background-color: #0056b3;
+}
